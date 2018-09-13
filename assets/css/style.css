@@ -1,0 +1,441 @@
+/* Top Bar */
+
+.topnav {
+    overflow: hidden;
+    background-color: #ffffff;
+    width: 960px;
+    margin: auto;
+    max-height: 80px;
+  }
+  
+.topnav a {
+    float: left;
+    color: #777777;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+    font-size: 20px;
+    max-height: 80px;
+  }
+  
+#name {
+    background-color: #4aaaa5;
+    color: white;
+    margin-right: 47%;
+    padding: 15px;
+    font-size: 20px;
+    max-height: 80px;
+    text-align: center;
+    float: left;
+  }
+
+.topnavsection {
+    border-bottom-style: solid;
+    border-color: #cccccc;
+    border-bottom-width: 1px;
+    border-top-width: 0;
+    background: #ffffff;
+    white-space: nowrap;
+    max-height: 80px;
+    min-width: 100%;
+  }
+
+/* Headers, Fonts, and Body */
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+body {
+    background-image: url("https://stellalana.github.io/Basic-Portfolio/assets/images/concrete_seamless.png");
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+p {
+    color: #777777;
+}
+
+/* Content */
+
+.wrapper {
+    width: 960px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  html, body {
+    height: 100%;
+  }
+  .content {
+    flex: 1 0 auto;
+    min-width: 100%;
+  }
+  .footer {
+    font-family: Arial, Helvetica, sans-serif;
+    flex-shrink: 0;
+    background-color: #666666;
+    color: #b9b9b9;
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 10px;
+    border-top-color: #4aaaa5;
+    border-top-width: 8px;
+    border-top-style: solid;
+    font-size: 11px;
+    min-width: 100%;
+  }
+
+/* Contact Form */
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #e2e2e2; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #4aaaa598;
+}
+
+/* Add a background color and some padding around the form */
+.containerIndex {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin: auto;
+    position: relative;
+    height: 525px;
+    width: 960px;
+    padding: 20px;
+    margin-bottom: auto;
+    background: #ffffff;
+    color: #777777;
+}
+.containerContact {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  margin: auto;
+  position: relative;
+  height: 525px;
+  width: 960px;
+  padding: 20px;
+  margin-bottom: auto;
+  background: #ffffff;
+  color: #777777;
+}
+
+/* Image */
+
+img {
+    float: left;
+    max-width: 30%;
+    height: auto;
+    width: auto;
+    margin-top: 20px;
+}
+
+/* About Section */
+
+#about {
+    float: left;
+    width: 62%;
+    padding: 5px 30px;
+}
+
+/* Portfolio Boxes */
+
+.box-set {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    margin: auto;
+    position: relative;
+    height: 960px;
+    width: 960px;
+    padding: 20px;
+    margin-bottom: auto;
+    background: #ffffff;
+    color: #777777;
+}
+.box {
+    width: 250px;
+    height: 200px;
+    border: 2px solid black;
+    position: absolute;
+  }
+  
+  .box-1 {
+    background-image: url("https://stellalana.github.io/Basic-Portfolio/assets/images/kitkat.jpg");
+    background-size: contain;
+    background-position: center;
+    top: 10%;
+    left: 5%;
+  }
+
+
+  .box-2 {
+    background-image: url("https://stellalana.github.io/Basic-Portfolio/assets/images/scream.jpg");
+    background-size: contain;
+    background-position: center;
+    top: 10%;
+    right: 25%
+  }
+  
+  .box-3 {
+    background-image: url("https://stellalana.github.io/Basic-Portfolio/assets/images/ded.jpg");
+    background-size: contain;
+    background-position: center;
+    top: 35%;
+    left: 5%;
+  }
+  
+  .box-4 {
+    background-image: url("https://stellalana.github.io/Basic-Portfolio/assets/images/rose.jpg");
+    background-size: contain;
+    background-position: center;
+    top: 35%;
+    right: 25%
+  }
+
+  .box-5 {
+    background-image: url("https://stellalana.github.io/Basic-Portfolio/assets/images/bunbun.jpg");
+    background-size: contain;
+    background-position: center;
+    top: 60%;
+    left: 5%;
+  }
+  
+  #boxtext {
+    text-align: center;
+    background-color: #4aaaa5;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 2px;
+    padding-top: 12px;
+    color: #ffffff;
+    margin-top: 60%;
+  }
+  
+  /* Media Queries */
+
+  @media screen and (max-width: 980px) {
+    .wrapper {
+      max-width: 940px;
+    }
+    #name {
+      margin-left: 8px;
+      margin-right: 47%;
+      padding: 16px;
+    }
+    .topnav a {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .containerContact {
+      width: 600px;
+      margin: 0px;
+      height: auto;
+    }
+    .containerIndex {
+      width: 600px;
+      margin: 0px;
+      height: 350px;
+    }
+    #about {
+      width: 55%;
+    }
+    .box-set {
+      margin: 0px;
+      height: 800px;
+      width: 550px;
+    }
+    .box-1 {
+      top: 12%;
+      left: -3%;
+    }
+    .box-2 {
+      top: 12%;
+      left: 46%;
+    }
+    .box-3 {
+      top: 40%;
+      left: -3%;
+    }
+    .box-4 {
+      top: 40%;
+      left: 46%;
+    }
+    .box-5 {
+      top: 68%;
+      left: -3%;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .wrapper, .topnav {
+      width: 725px;
+    }
+    #name {
+      margin-left: 0%;
+      margin-right: 34%;
+      padding: 16px;
+    }
+    .topnav a {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .containerContact {
+      width: 680px;
+      margin: 0px;
+      height: auto;
+    }
+    .containerIndex {
+      width: 680px;
+      margin: 0px;
+      height: 400px;
+    }
+    #about {
+      width: 60%;
+    }
+    .box-set {
+      margin: 0px;
+      height: 800px;
+      width: 680px;
+    }
+    .box-1 {
+      top: 12%;
+      left: 2%;
+    }
+    .box-2 {
+      top: 12%;
+      left: 50%;
+    }
+    .box-3 {
+      top: 40%;
+      left: 2%;
+    }
+    .box-4 {
+      top: 40%;
+      left: 50%;
+    }
+    .box-5 {
+      top: 68%;
+      left: 2%;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .wrapper, .topnav {
+      width: 600px;
+    }
+    .topnav {
+      width: 100%;
+      max-height: 160px;
+      border-bottom-style: solid;
+      border-color: #cccccc;
+      border-bottom-width: 1px;
+      border-top-width: 0;
+    }
+
+    .topnavsection {
+      background: #4aaaa5;
+      border-bottom-style: solid;
+      border-color: #4aaaa5;
+      border-bottom-width: 1px;
+    }
+    #name {
+      width: 100%;
+      padding: 12px;
+      margin: 0px;
+    }
+    #smallscrnbar {
+      width: 640px;
+      padding: 16px;
+    }
+    .topnav a {
+      padding-left: 15px;
+      padding-right: 15px;
+      float: right;
+      margin-right: 14%;
+    }
+    .wrapper {
+
+      padding: 20px;
+      margin: 11% auto;
+    }
+    .containerContact {
+      width: 560px;
+      margin: 0px;
+      height: auto;
+    }
+    .containerIndex {
+      width: 560px;
+      margin: 0px;
+      height: 1300px;
+    }
+    #imgS {
+      width: 1860px;
+    }
+    #about {
+      width: 90%;
+      font-size: 34px;
+      text-align: justify;
+
+    }
+    .box-set {
+      margin: 0px;
+      height: 2600px;
+      width: 560px;
+    }
+    .box-1 {
+      top: 100px;
+      left: -3%;
+    }
+    .box-2 {
+      top: 600px;
+      left: -3%;
+    }
+    .box-3 {
+      top: 1100px;
+      left: -3%;
+    }
+    .box-4 {
+      top: 1600px;
+      left: -3%;
+    }
+    .box-5 {
+      top: 2100px;
+      left: -3%;
+    }
+
+    .box {
+      width: 90%;
+      height: 15%;
+    }
+
+  }
